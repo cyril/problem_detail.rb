@@ -6,7 +6,6 @@
 [![Gem Version](https://badge.fury.io/rb/problem_detail.rb.svg)][gem]
 [![Inline docs](http://inch-ci.org/github/cyril/problem_detail.rb.svg?branch=master)][inchpages]
 [![Documentation](http://img.shields.io/:yard-docs-38c800.svg)][rubydoc]
-[![Gitter](https://badges.gitter.im/Join%20Chat.svg)][gitter]
 
 > Problem Details for HTTP APIs.
 
