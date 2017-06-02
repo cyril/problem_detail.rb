@@ -13,7 +13,7 @@ A structure to define a *problem detail* as a way to carry machine-readable deta
 
 To read more: [Indicating Problems in HTTP APIs](http://www.mnot.net/blog/2013/05/15/http_problem).
 
-Supported version: [draft-nottingham-http-problem-07](https://www.ietf.org/archive/id/draft-nottingham-http-problem-07.txt).
+Supported version: [Problem Details for HTTP APIs](https://tools.ietf.org/html/rfc7807).
 
 ## Rubies
 
