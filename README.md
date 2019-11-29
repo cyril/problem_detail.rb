@@ -1,10 +1,9 @@
 # Problem Detail
 
-[![Build Status](https://travis-ci.org/cyril/problem_detail.rb.svg?branch=master)][travis]
-[![Code Climate](https://codeclimate.com/github/cyril/problem_detail.rb/badges/gpa.svg)][codeclimate]
-[![Dependency Status](https://gemnasium.com/cyril/problem_detail.rb.svg)][gemnasium]
-[![Gem Version](https://badge.fury.io/rb/problem_detail.rb.svg)][gem]
-[![Inline docs](http://inch-ci.org/github/cyril/problem_detail.rb.svg?branch=master)][inchpages]
+[![Build Status](https://api.travis-ci.org/cyril/problem_detail.rb.svg?branch=master)][travis]
+[![Code Climate](https://api.codeclimate.com/v1/badges/760884492bbfa493ef97/maintainability.svg)][codeclimate]
+[![Gem Version](https://badge.fury.io/rb/problem_detail.svg)][gem]
+[![Inline docs](https://inch-ci.org/github/cyril/problem_detail.rb.svg?branch=master)][inchpages]
 [![Documentation](http://img.shields.io/:yard-docs-38c800.svg)][rubydoc]
 
 > Problem Details for HTTP APIs.
@@ -23,16 +22,7 @@ Supported version: [Problem Details for HTTP APIs](https://tools.ietf.org/html/r
 
 ## Installation
 
-__ProblemDetail__ is cryptographically signed.
-
-To be sure the gem you install hasn't been tampered with, add my public key (if you haven't already) as a trusted certificate:
-
-    $ gem cert --add <(curl -Ls https://raw.github.com/cyril/problem_detail.rb/master/certs/gem-cyril-public_cert.pem)
-    $ gem install problem_detail -P HighSecurity
-
-The `HighSecurity` trust profile will verify all gems.  All of __ProblemDetail__'s dependencies are signed.
-
-Or add this line to your application's Gemfile:
+Add this line to your application's Gemfile:
 
 ```ruby
 gem 'problem_detail'
@@ -41,6 +31,10 @@ gem 'problem_detail'
 And then execute:
 
     $ bundle
+
+Or install it yourself as:
+
+    $ gem install problem_detail
 
 ## Usage
 
@@ -93,6 +87,5 @@ See `LICENSE.md` file.
 [gem]: https://rubygems.org/gems/problem_detail
 [travis]: https://travis-ci.org/cyril/problem_detail.rb
 [codeclimate]: https://codeclimate.com/github/cyril/problem_detail.rb
-[gemnasium]: https://gemnasium.com/cyril/problem_detail.rb
-[inchpages]: http://inch-ci.org/github/cyril/problem_detail.rb
-[rubydoc]: http://rubydoc.info/gems/problem_detail/frames
+[inchpages]: https://inch-ci.org/github/cyril/problem_detail.rb
+[rubydoc]: https://rubydoc.info/gems/problem_detail/frames
